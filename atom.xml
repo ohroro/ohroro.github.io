@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-15T08:44:26.828Z</updated>
+  <updated>2020-03-15T09:55:52.434Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -17,19 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>1st post</title>
+    <title>첫 게시글</title>
     <link href="http://ohroro.github.io/2020/03/15/1st-post/"/>
     <id>http://ohroro.github.io/2020/03/15/1st-post/</id>
     <published>2020-03-15T07:53:02.000Z</published>
-    <updated>2020-03-15T08:44:26.828Z</updated>
+    <updated>2020-03-15T09:55:52.434Z</updated>
     
-    <content type="html"><![CDATA[<p>Hi<del>~</del><br>안녕하세요</p>]]></content>
+    <content type="html"><![CDATA[<p>Hi<del>~</del></p><p>안녕하세요</p><p>오로로의 블로그입니다</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Hi&lt;del&gt;~&lt;/del&gt;&lt;br&gt;안녕하세요&lt;/p&gt;
+        &lt;p&gt;Hi&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;안녕하세요&lt;/p&gt;
+&lt;p&gt;오로로의 블로그입니다&lt;/p&gt;
 
       
     
