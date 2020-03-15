@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-15T10:09:27.663Z</updated>
+  <updated>2020-03-15T10:13:44.182Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Why</title>
+    <link href="http://ohroro.github.io/2020/03/15/Why/"/>
+    <id>http://ohroro.github.io/2020/03/15/Why/</id>
+    <published>2020-03-15T10:13:24.000Z</published>
+    <updated>2020-03-15T10:13:44.182Z</updated>
+    
+    <content type="html"><![CDATA[<p>why</p><p>왜 안되는거</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;why&lt;/p&gt;
+&lt;p&gt;왜 안되는거&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://ohroro.github.io/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://ohroro.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>hoe to</title>
