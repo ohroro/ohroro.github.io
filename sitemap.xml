@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ohroro.github.io/2020/03/15/about/</loc>
+    
+    <lastmod>2020-03-15T09:21:34.682Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ohroro.github.io/2020/03/15/1st-post/</loc>
+    
+    <lastmod>2020-03-15T08:44:26.828Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ohroro.github.io/categories/index.html</loc>
     
     <lastmod>2020-03-15T08:10:59.732Z</lastmod>
@@ -9,23 +23,9 @@
   </url>
   
   <url>
-    <loc>http://ohroro.github.io/2020/03/15/1st-post/</loc>
-    
-    <lastmod>2020-03-15T08:01:15.417Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ohroro.github.io/tags/index.html</loc>
     
     <lastmod>2020-03-15T07:55:44.775Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ohroro.github.io/2020/03/15/about/</loc>
-    
-    <lastmod>2020-03-15T07:30:04.526Z</lastmod>
     
   </url>
   
