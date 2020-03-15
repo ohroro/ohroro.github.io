@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-15T09:21:34.682Z</updated>
+  <updated>2020-03-15T10:09:27.663Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hoe to</title>
+    <link href="http://ohroro.github.io/2020/03/15/hoe-to/"/>
+    <id>http://ohroro.github.io/2020/03/15/hoe-to/</id>
+    <published>2020-03-15T10:08:48.000Z</published>
+    <updated>2020-03-15T10:09:27.663Z</updated>
+    
+    <content type="html"><![CDATA[<p>why</p><p>안되니?</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;why&lt;/p&gt;
+&lt;p&gt;안되니?&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://ohroro.github.io/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://ohroro.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>about</title>
