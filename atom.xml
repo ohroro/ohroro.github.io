@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-19T13:15:28.787Z</updated>
+  <updated>2020-03-19T13:30:03.919Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>카테고리</title>
+    <link href="http://ohroro.github.io/2020/03/19/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
+    <id>http://ohroro.github.io/2020/03/19/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/</id>
+    <published>2020-03-19T13:29:26.000Z</published>
+    <updated>2020-03-19T13:30:03.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>되나</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;되나&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="카테고리" scheme="http://ohroro.github.io/categories/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
+    
+    
+      <category term="카테고리" scheme="http://ohroro.github.io/tags/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>Teams 화상회의 1</title>
