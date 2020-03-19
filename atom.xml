@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-15T11:26:50.963Z</updated>
+  <updated>2020-03-19T12:47:53.716Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://ohroro.github.io/2020/03/15/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-1/"/>
     <id>http://ohroro.github.io/2020/03/15/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-1/</id>
     <published>2020-03-15T10:53:45.000Z</published>
-    <updated>2020-03-15T11:26:50.963Z</updated>
+    <updated>2020-03-19T12:47:53.716Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Teams로-화상회의-모임-만들기"><a href="#Teams로-화상회의-모임-만들기" class="headerlink" title="Teams로 화상회의 모임 만들기"></a>Teams로 화상회의 모임 만들기</h1><p>얼굴을 보며 회의를 하고 싶은데 여러 상황상 만날 수 없을 경우 화상 회의를 해봅시다.</p><hr><h2 id="1-모임-만들기"><a href="#1-모임-만들기" class="headerlink" title="1. 모임 만들기"></a>1. 모임 만들기</h2><p><img src="https://user-images.githubusercontent.com/53321666/76700385-2d888400-66fa-11ea-8f27-27ac480d4121.png" alt="teams_01"></p><ul><li>왼쪽 메뉴에서 ‘일정’을 클릭합니다.</li><li>‘모임시작’은 바로 회의를 시작할 때 사용합니다.<br>‘+새 모임’은 회의 시간을 예약할 때 사용합니다.</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700452-fbc3ed00-66fa-11ea-9d95-f0bcb45fbaab.png" alt="new_01"></p><ul><li>회의에 사용할 제목, 시간, 내용 등을 입력합니다.<br>(시간은 클릭하여 1분 단위로도 수정됩니다.)</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700455-0aaa9f80-66fb-11ea-9f4e-65bcf751c9bf.png" alt="new_04"></p><ul><li><p>초대 할 때 주의사항</p><ol><li><p>‘필수 참석자 추가’란에 초대할 상대방의 이메일 주소를 입력합니다.</p></li><li><p>이메일 입력 후 하단의 이미지처럼 ‘abcd@gmail.com 초대’라는 팝업이 생겼을 때, 팝업을 클릭 또는 Enter키를 입력합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/76700456-126a4400-66fb-11ea-8b52-2ac2fdc7242b.png" alt="new_02"></p></li><li><p>하단의 이미지 처럼 변경되었는지 확인합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/76700460-18f8bb80-66fb-11ea-8116-6f2c5cb9e63f.png" alt="new_03"></p></li></ol></li><li><p>초대할 사람의 입력을 끝내면 ‘보내기’를 누릅니다.</p></li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700461-1a29e880-66fb-11ea-9f8d-b5b2e6c601a2.png" alt="new_05"></p><hr><hr><h2 id="2-모임-참여하기"><a href="#2-모임-참여하기" class="headerlink" title="2. 모임 참여하기"></a>2. 모임 참여하기</h2><p><img src="https://user-images.githubusercontent.com/53321666/76700463-1d24d900-66fb-11ea-9451-bd0ad874c116.png" alt="teams_04"></p><ul><li>다른 업무를 하다가 회의 시간이 되어 내가 만든 회의방으로 접속을 할 때는<br>팀즈 일정 탭에서 만든 모임을 클릭합니다.</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700464-1dbd6f80-66fb-11ea-85d2-52fdfa966121.png" alt="teams_05"></p><ul><li><p>위의 2군데 중 하나를 클릭하면 회의방으로 참가하게 됩니다.</p><p>  ○팀즈 모임을 예약하면 내 아웃룩 일정에도 자동으로 등록이 됩니다.<br>  아웃룩 일정에 등록 된 모임을 통해서도 참가할 수 있습니다.</p></li><li><p>초대한 상대방이 화상회의에 참여하려면?</p></li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700462-1d24d900-66fb-11ea-910c-096f71db85d4.png" alt="teams_03"></p><p>내가 초대한 상대방의 이메일 수신 화면입니다.<br>상대방이 ‘Microsoft Teams 모임 참가’ 를 클릭하면 내가 만든 회의방으로 들어오게 됩니다.</p>]]></content>
     
@@ -37,8 +37,12 @@
     
       <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
     
+      <category term="Teams" scheme="http://ohroro.github.io/categories/office365/Teams/"/>
+    
     
       <category term="Teams" scheme="http://ohroro.github.io/tags/Teams/"/>
+    
+      <category term="office365" scheme="http://ohroro.github.io/tags/office365/"/>
     
   </entry>
   
