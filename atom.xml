@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-03-19T13:43:10.396Z</updated>
+  <updated>2020-03-19T14:12:23.891Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://ohroro.github.io/2020/03/19/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
     <id>http://ohroro.github.io/2020/03/19/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/</id>
     <published>2020-03-19T13:29:26.000Z</published>
-    <updated>2020-03-19T13:43:10.396Z</updated>
+    <updated>2020-03-19T14:12:23.891Z</updated>
     
     <content type="html"><![CDATA[<p>되나</p>]]></content>
     
@@ -36,10 +36,18 @@
     </summary>
     
     
-      <category term="카테고리" scheme="http://ohroro.github.io/categories/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
+      <category term="Configuration" scheme="http://ohroro.github.io/categories/Configuration/"/>
+    
+      <category term="Hexo" scheme="http://ohroro.github.io/categories/Configuration/Hexo/"/>
     
     
-      <category term="카테고리" scheme="http://ohroro.github.io/tags/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC/"/>
+      <category term="ThisIsATag" scheme="http://ohroro.github.io/tags/ThisIsATag/"/>
+    
+      <category term="Intro" scheme="http://ohroro.github.io/tags/Intro/"/>
+    
+      <category term="Welcome" scheme="http://ohroro.github.io/tags/Welcome/"/>
+    
+      <category term="Anodyne" scheme="http://ohroro.github.io/tags/Anodyne/"/>
     
   </entry>
   
