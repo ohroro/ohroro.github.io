@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ohroro.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-03-19T13:49:38.756Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ohroro.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-03-19T13:49:36.780Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ohroro.github.io/2020/03/15/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-1/</loc>
     
     <lastmod>2020-03-19T13:47:39.093Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>http://ohroro.github.io/2020/03/15/about/</loc>
     
     <lastmod>2020-03-15T13:45:20.777Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ohroro.github.io/categories/index.html</loc>
-    
-    <lastmod>2020-03-15T08:10:59.732Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ohroro.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-03-15T07:55:44.775Z</lastmod>
     
   </url>
   
