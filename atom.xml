@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-04-08T08:40:47.595Z</updated>
+  <updated>2020-04-10T10:45:22.999Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>UI Flow KB Card</title>
+    <link href="http://ohroro.github.io/2020/04/10/UI-Flow-KB-Card/"/>
+    <id>http://ohroro.github.io/2020/04/10/UI-Flow-KB-Card/</id>
+    <published>2020-04-10T10:30:54.000Z</published>
+    <updated>2020-04-10T10:45:22.999Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="KB-Card-로그인"><a href="#KB-Card-로그인" class="headerlink" title="KB Card 로그인"></a>KB Card 로그인</h2><p>페이지 오픈 -&gt; 아이디 입력 -&gt; 비밀번호 입력까지 잘 진행됨.<br>그러나 비번 입력 후 로그인 버튼을 클릭하면…</p><p><img src="https://user-images.githubusercontent.com/53321666/78985003-aac0e080-7b62-11ea-9986-73157ec7f4ad.png" alt="KB 01"></p><p>직접 입력하면 괜찮은데 Selenium IDE 를 사용하면 저 오류 메세지가 계속 발생</p><p>수 차례 시도하다보니</p><p><img src="https://user-images.githubusercontent.com/53321666/78985007-abf20d80-7b62-11ea-82c5-00c7545aaa48.png" alt="KB 02"></p><p>이 화면을 보게되었는데 아이디 란이 정말 비어있음</p><p>분명 입력을 하였지만 로그인 버튼만 누르면 아이디 입력 된 것이 사라지는 현상…</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;KB-Card-로그인&quot;&gt;&lt;a href=&quot;#KB-Card-로그인&quot; class=&quot;headerlink&quot; title=&quot;KB Card 로그인&quot;&gt;&lt;/a&gt;KB Card 로그인&lt;/h2&gt;&lt;p&gt;페이지 오픈 -&amp;gt; 아이디 입력 -&amp;gt; 비밀번호 입력까
+      
+    
+    </summary>
+    
+    
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
+    
+      <category term="Power Automate" scheme="http://ohroro.github.io/categories/Microsoft-365/Power-Automate/"/>
+    
+    
+      <category term="Power Automate" scheme="http://ohroro.github.io/tags/Power-Automate/"/>
+    
+      <category term="UI Flow" scheme="http://ohroro.github.io/tags/UI-Flow/"/>
+    
+  </entry>
+  
+  <entry>
     <title>UI Flow Adobe Invoice PDF 출력</title>
     <link href="http://ohroro.github.io/2020/04/08/UI-Flow-Adobe-Invoice-PDF-%EC%B6%9C%EB%A0%A5/"/>
     <id>http://ohroro.github.io/2020/04/08/UI-Flow-Adobe-Invoice-PDF-%EC%B6%9C%EB%A0%A5/</id>
     <published>2020-04-08T08:02:33.000Z</published>
-    <updated>2020-04-08T08:40:47.595Z</updated>
+    <updated>2020-04-10T10:45:18.379Z</updated>
     
     <content type="html"><![CDATA[<ul><li>UI Flow를 이용한 Invoice 다운로드 후 발송 자동화</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/78760094-9c849000-79bb-11ea-8e80-67806a49229e.png" alt="adobe 03"><br>Power Automate에서 Web UI flow로 녹화를 하기 위해 ‘Edit’ 클릭</p><p><img src="https://user-images.githubusercontent.com/53321666/78760381-0d2bac80-79bc-11ea-8b9a-96d51bebdf60.png" alt="adobe 04"></p><p>네모로 가린 부분은 아이디와 비밀번호 입력란.<br>어도비 사이트에 로그인 정보가 남아있어서 지우고 입력하다보니 ‘Command’라인이 늘어났었다.</p><p>이를 줄이기 위해 입력란에 바로 정보를 입력하게 수정.</p><p><img src="https://user-images.githubusercontent.com/53321666/78761178-38fb6200-79bd-11ea-816c-6917854670a7.png" alt="adobe 05"></p><p>빨간색 문서 아이콘을 클릭하여 인보이스를 열어야 하는데 테스트만 하면 제대로 찾지를 못하는 현상이 자주 발생.<br>(‘입력시간’ 초과라는 에러 메세지)</p><p>시간을 늘려주어도, 편집에서 위치를 새로 지정해주어도 이 에러는 계속 발생.</p><p>위치 지정 후 마우스 클릭이 아닌 키보드 엔터 입력으로 바꿔보니 에러없이 잘 실행됨!</p><p>하단의 이미지 처럼 새로운 탭에 인쇄 창이 열린다.</p><p><img src="https://user-images.githubusercontent.com/53321666/78761762-fa19dc00-79bd-11ea-80e7-f59f703e8510.png" alt="adobe 01"></p><p>종이 인쇄가 아닌 PDF로 출력을 해야 하는데 여기서 또 문제 발생…</p><p>이 인쇄탭에서 ‘Selenium IDE’ 인식이 안된다…<br>분명히 크롬에서 열려있는데도…</p><p><img src="https://user-images.githubusercontent.com/53321666/78762364-bbd0ec80-79be-11ea-825b-ef2786b11ab2.png" alt="adobe 02"></p><p>혹시나하는 마음에 Desktop UI Flow로 시도해 봤으나 역시나 위 이미지처럼 안됨…</p>]]></content>
     
@@ -38,9 +68,9 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
-      <category term="power automate" scheme="http://ohroro.github.io/categories/office365/power-automate/"/>
+      <category term="Power Automate" scheme="http://ohroro.github.io/categories/Microsoft-365/Power-Automate/"/>
     
     
       <category term="office365" scheme="http://ohroro.github.io/tags/office365/"/>
@@ -118,7 +148,7 @@
     <link href="http://ohroro.github.io/2020/03/29/eDM-%EB%B0%9C%EC%86%A1-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
     <id>http://ohroro.github.io/2020/03/29/eDM-%EB%B0%9C%EC%86%A1-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/</id>
     <published>2020-03-29T12:39:32.000Z</published>
-    <updated>2020-04-02T01:57:05.428Z</updated>
+    <updated>2020-04-10T10:32:37.201Z</updated>
     
     <content type="html"><![CDATA[<h2 id="eDM-발송을-위한-리스트-만들기"><a href="#eDM-발송을-위한-리스트-만들기" class="headerlink" title="eDM 발송을 위한 리스트 만들기"></a>eDM 발송을 위한 리스트 만들기</h2><h3 id="Sharepoint-List-생성"><a href="#Sharepoint-List-생성" class="headerlink" title="Sharepoint List 생성"></a>Sharepoint List 생성</h3><p><img src="https://user-images.githubusercontent.com/53321666/77849375-22f3e180-7206-11ea-9fc8-7d0e1dd2237d.png" alt="edm 01"></p><p>쉐어포인트에 리스트를 생성하고 원하는데로 ‘열’을 추가합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77849403-4fa7f900-7206-11ea-806a-5b47f1be6388.png" alt="edm 02"></p><p>필요한 내용 설정이 마무리되면 입력을 편하게 하기위해 위 메뉴중 PowerApps의 ‘Create an app’를 선택하여 자동으로 앱을 만듭니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77849430-8847d280-7206-11ea-8eb8-0a3f3859e0f4.png" alt="edm 03"></p><p><img src="https://user-images.githubusercontent.com/53321666/77849449-a0b7ed00-7206-11ea-8b06-41484156bc79.png" alt="edm 04"></p><p>PowerApps에서 자동으로 앱이 생성됩니다.</p><p>쉐어포인트에 생성한 column과 내용이 순서가 다르네요…..<br>수정작업을 합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77849473-c9d87d80-7206-11ea-9d7e-a397fbae5602.png" alt="edm 05"></p><p>내용을 작성하고 저장을 합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77849498-fbe9df80-7206-11ea-8e2f-8cdfb7622418.png" alt="edm 06"></p><p>Sharepoint에도 자동으로 반영됩니다.</p>]]></content>
     
@@ -132,7 +162,7 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
     
       <category term="Sharepoint" scheme="http://ohroro.github.io/tags/Sharepoint/"/>
