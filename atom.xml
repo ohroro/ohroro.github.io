@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ohroro.github.io/"/>
-  <updated>2020-04-10T10:45:22.999Z</updated>
+  <updated>2020-04-02T02:25:08.105Z</updated>
   <id>http://ohroro.github.io/</id>
   
   <author>
@@ -15,105 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>UI Flow KB Card</title>
-    <link href="http://ohroro.github.io/2020/04/10/UI-Flow-KB-Card/"/>
-    <id>http://ohroro.github.io/2020/04/10/UI-Flow-KB-Card/</id>
-    <published>2020-04-10T10:30:54.000Z</published>
-    <updated>2020-04-10T10:45:22.999Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="KB-Card-로그인"><a href="#KB-Card-로그인" class="headerlink" title="KB Card 로그인"></a>KB Card 로그인</h2><p>페이지 오픈 -&gt; 아이디 입력 -&gt; 비밀번호 입력까지 잘 진행됨.<br>그러나 비번 입력 후 로그인 버튼을 클릭하면…</p><p><img src="https://user-images.githubusercontent.com/53321666/78985003-aac0e080-7b62-11ea-9986-73157ec7f4ad.png" alt="KB 01"></p><p>직접 입력하면 괜찮은데 Selenium IDE 를 사용하면 저 오류 메세지가 계속 발생</p><p>수 차례 시도하다보니</p><p><img src="https://user-images.githubusercontent.com/53321666/78985007-abf20d80-7b62-11ea-82c5-00c7545aaa48.png" alt="KB 02"></p><p>이 화면을 보게되었는데 아이디 란이 정말 비어있음</p><p>분명 입력을 하였지만 로그인 버튼만 누르면 아이디 입력 된 것이 사라지는 현상…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;KB-Card-로그인&quot;&gt;&lt;a href=&quot;#KB-Card-로그인&quot; class=&quot;headerlink&quot; title=&quot;KB Card 로그인&quot;&gt;&lt;/a&gt;KB Card 로그인&lt;/h2&gt;&lt;p&gt;페이지 오픈 -&amp;gt; 아이디 입력 -&amp;gt; 비밀번호 입력까
-      
-    
-    </summary>
-    
-    
-      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
-    
-      <category term="Power Automate" scheme="http://ohroro.github.io/categories/Microsoft-365/Power-Automate/"/>
-    
-    
-      <category term="Power Automate" scheme="http://ohroro.github.io/tags/Power-Automate/"/>
-    
-      <category term="UI Flow" scheme="http://ohroro.github.io/tags/UI-Flow/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UI Flow Adobe Invoice PDF 출력</title>
-    <link href="http://ohroro.github.io/2020/04/08/UI-Flow-Adobe-Invoice-PDF-%EC%B6%9C%EB%A0%A5/"/>
-    <id>http://ohroro.github.io/2020/04/08/UI-Flow-Adobe-Invoice-PDF-%EC%B6%9C%EB%A0%A5/</id>
-    <published>2020-04-08T08:02:33.000Z</published>
-    <updated>2020-04-10T10:45:18.379Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>UI Flow를 이용한 Invoice 다운로드 후 발송 자동화</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/78760094-9c849000-79bb-11ea-8e80-67806a49229e.png" alt="adobe 03"><br>Power Automate에서 Web UI flow로 녹화를 하기 위해 ‘Edit’ 클릭</p><p><img src="https://user-images.githubusercontent.com/53321666/78760381-0d2bac80-79bc-11ea-8b9a-96d51bebdf60.png" alt="adobe 04"></p><p>네모로 가린 부분은 아이디와 비밀번호 입력란.<br>어도비 사이트에 로그인 정보가 남아있어서 지우고 입력하다보니 ‘Command’라인이 늘어났었다.</p><p>이를 줄이기 위해 입력란에 바로 정보를 입력하게 수정.</p><p><img src="https://user-images.githubusercontent.com/53321666/78761178-38fb6200-79bd-11ea-816c-6917854670a7.png" alt="adobe 05"></p><p>빨간색 문서 아이콘을 클릭하여 인보이스를 열어야 하는데 테스트만 하면 제대로 찾지를 못하는 현상이 자주 발생.<br>(‘입력시간’ 초과라는 에러 메세지)</p><p>시간을 늘려주어도, 편집에서 위치를 새로 지정해주어도 이 에러는 계속 발생.</p><p>위치 지정 후 마우스 클릭이 아닌 키보드 엔터 입력으로 바꿔보니 에러없이 잘 실행됨!</p><p>하단의 이미지 처럼 새로운 탭에 인쇄 창이 열린다.</p><p><img src="https://user-images.githubusercontent.com/53321666/78761762-fa19dc00-79bd-11ea-80e7-f59f703e8510.png" alt="adobe 01"></p><p>종이 인쇄가 아닌 PDF로 출력을 해야 하는데 여기서 또 문제 발생…</p><p>이 인쇄탭에서 ‘Selenium IDE’ 인식이 안된다…<br>분명히 크롬에서 열려있는데도…</p><p><img src="https://user-images.githubusercontent.com/53321666/78762364-bbd0ec80-79be-11ea-825b-ef2786b11ab2.png" alt="adobe 02"></p><p>혹시나하는 마음에 Desktop UI Flow로 시도해 봤으나 역시나 위 이미지처럼 안됨…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;UI Flow를 이용한 Invoice 다운로드 후 발송 자동화&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/53321666/78760094-9c849000-79b
-      
-    
-    </summary>
-    
-    
-      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
-    
-      <category term="Power Automate" scheme="http://ohroro.github.io/categories/Microsoft-365/Power-Automate/"/>
-    
-    
-      <category term="office365" scheme="http://ohroro.github.io/tags/office365/"/>
-    
-      <category term="power automate" scheme="http://ohroro.github.io/tags/power-automate/"/>
-    
-      <category term="ui flow" scheme="http://ohroro.github.io/tags/ui-flow/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Edu 페이지 만들기</title>
-    <link href="http://ohroro.github.io/2020/04/02/Edu-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
-    <id>http://ohroro.github.io/2020/04/02/Edu-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0/</id>
-    <published>2020-04-02T01:46:38.000Z</published>
-    <updated>2020-04-02T02:46:54.480Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="홈페이지에-교육용-페이지-만들기"><a href="#홈페이지에-교육용-페이지-만들기" class="headerlink" title="홈페이지에 교육용 페이지 만들기"></a>홈페이지에 교육용 페이지 만들기</h2><p>Wordpress에 Avada 테마를 사용중이다.</p><p><img src="https://user-images.githubusercontent.com/53321666/78202802-3a65ef80-74d0-11ea-8553-416f87ec871f.png" alt="wordpress 01"></p><h3 id="Toggle"><a href="#Toggle" class="headerlink" title="Toggle"></a>Toggle</h3><p>toggle을 사용하여 한 페이지안에 자료를 모아보았다. </p><p>가장 깔끔할것이라 생각하여 만들었다.</p><p><img src="https://user-images.githubusercontent.com/53321666/78203584-566a9080-74d2-11ea-8102-32a0687cfac3.png" alt="wordpress 02"></p><p>토글 선택시 해당 내용만 펼쳐지는 형태이다.<br>깔끔한 모습은 좋으나 검색 시에 모든 내용이 이 페이지 안에 있다보니……</p><p>이 페이지안에서 다시 수동으로 찾아야하는 불편함이 발생…</p><h3 id="Posts-작성으로-변경"><a href="#Posts-작성으로-변경" class="headerlink" title="Posts 작성으로 변경"></a>Posts 작성으로 변경</h3><p>위젯과 메뉴를 섞어서 토글안에 넣으려 하였다. 제목만 나오게 하고 싶은데 그 간격이 원하는 것보다 넓어서 간단하게 표시되는 플러그인을 검색하던 중 ‘List Category Posts’라는 플러그인 발견. </p><p><img src="https://user-images.githubusercontent.com/53321666/78204035-7fd7ec00-74d3-11ea-9fc3-335281c71fbc.png" alt="wordpress 04"></p><p>이 플러그인을 위젯에 추가한 후 토글안에 이 위젯을 추가</p><p><img src="https://user-images.githubusercontent.com/53321666/78204041-81a1af80-74d3-11ea-9b95-71986ee5c1c0.png" alt="wordpress 03"></p><p>오호! 원하는 모습이다!!!</p><p>원하는 포스트 제목을 선택하면 내용을 볼수 있게 되고 검색 시에도 개별적으로 포스트가 있어서 해당 검색이 된다.</p><h3 id="위의-두가지를-함께-사용할-수는-없을까"><a href="#위의-두가지를-함께-사용할-수는-없을까" class="headerlink" title="위의 두가지를 함께 사용할 수는 없을까??"></a>위의 두가지를 함께 사용할 수는 없을까??</h3><p><img src="https://user-images.githubusercontent.com/53321666/78203584-566a9080-74d2-11ea-8102-32a0687cfac3.png" alt="wordpress 02"></p><p>각 토글에 포스트를 하나씩 넣을 수 있다면 이 페이지 안에서 모두 해결되겠는데! 다시 수정..</p><p><img src="https://user-images.githubusercontent.com/53321666/78205111-51a7db80-74d6-11ea-91ff-c682452f59c2.png" alt="wordpress 05"></p><p>‘Post in Page’ </p><p>간단한 코드로 페이지안에 포스트를 넣을 수 있다하여 사용</p><p><img src="https://user-images.githubusercontent.com/53321666/78205344-db57a900-74d6-11ea-9747-0f82fdcfd5cd.png" alt="wordpress 07"></p><p>이미지가 안 나오고 내용도 전체가 나오지를 않는다…. 아바다 설정에서 포스트 내용이 전체가 나오게 설정을 변경하여도 계속 이 상태… 이러면 안되는데… 다시 검색</p><p><img src="https://user-images.githubusercontent.com/53321666/78205116-52407200-74d6-11ea-9f09-c460164d4ae2.png" alt="wordpress 06"></p><p>‘Insert Pages’ 플러그인으로 변경</p><p><img src="https://user-images.githubusercontent.com/53321666/78205562-6638a380-74d7-11ea-92fd-91723b1602ef.png" alt="wordpress 08"></p><p>엇! 이건 되네!!! 그런데…..</p><p><img src="https://user-images.githubusercontent.com/53321666/78205566-69339400-74d7-11ea-9389-d7d7e2fe9c1f.png" alt="wordpress 09"></p><p>한글 내용은 이렇게 나온다…. 아… 다시 고민…</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;홈페이지에-교육용-페이지-만들기&quot;&gt;&lt;a href=&quot;#홈페이지에-교육용-페이지-만들기&quot; class=&quot;headerlink&quot; title=&quot;홈페이지에 교육용 페이지 만들기&quot;&gt;&lt;/a&gt;홈페이지에 교육용 페이지 만들기&lt;/h2&gt;&lt;p&gt;Wordpress에
-      
-    
-    </summary>
-    
-    
-      <category term="wordpress" scheme="http://ohroro.github.io/categories/wordpress/"/>
-    
-    
-      <category term="wordpress" scheme="http://ohroro.github.io/tags/wordpress/"/>
-    
-      <category term="avada" scheme="http://ohroro.github.io/tags/avada/"/>
-    
-      <category term="pages" scheme="http://ohroro.github.io/tags/pages/"/>
-    
-      <category term="posts" scheme="http://ohroro.github.io/tags/posts/"/>
-    
-      <category term="워드프레스" scheme="http://ohroro.github.io/tags/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4/"/>
-    
-  </entry>
   
   <entry>
     <title>영상 초간단 자르기</title>
