@@ -10,14 +10,11 @@
 
     <!--Description-->
     
-        <meta name="description" content="아웃룩 일정 등록그룹 일정 등록
+        <meta name="description" content="아웃룩에서 메일을 발송하였는데 다른 사람에게 보냈거나 파일 첨부등의 실수를 하였을 때 발송 메일을 취소하거나 수정한 내용을 바꿔서 보내는 기능입니다.
+다만 조건이 있는데 메일을 받는 상대방이
 
-좌측 하단에 있는 ‘일정’ 메뉴를 클릭합니다.
-
-일정 그룹에서 ‘회사명’을 체크합니다.(이 곳에서 일정을 등록해야 회사 전체 인원이 볼 수 있습니다.)
- 
-
-‘새 약속’ 또는 ‘새 모임’을 클릭하면 팝업창이 활성화되고 여기에 관련 내용">
+MS Exchange 계정을 사용
+아직 메일을 확인하지 않은 경우에만 할 수">
     
 
     <!--Author-->
@@ -27,7 +24,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Outlook 일정등록"/>
+        <meta property="og:title" content="Outlook 발송 취소 및 변경"/>
     
 
     <!--Open Graph Description-->
@@ -49,7 +46,7 @@
 
     <!-- Title -->
     
-    <title>Outlook 일정등록 - ohroro blog</title>
+    <title>Outlook 발송 취소 및 변경 - ohroro blog</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -126,8 +123,8 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">Outlook 일정등록</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-03-27</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">Outlook 발송 취소 및 변경</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-04-24</p>
         </div>
     </div>
 
@@ -147,39 +144,48 @@
                     
                         <div class="tags-container-vertical">
                             <div class="tags-sub-container">
-                                <a class="fw3 ph1 dib" href="/tags/Outlook/">#Outlook</a>
+                                <a class="fw3 ph1 dib" href="/tags/Outlook/">#Outlook</a> <a class="fw3 ph1 dib" href="/tags/발송-취소/">#발송 취소</a>
                             </div>
                         </div>
                     
 
                     <!-- Main Post Content -->
-                    <h2 id="아웃룩-일정-등록"><a href="#아웃룩-일정-등록" class="headerlink" title="아웃룩 일정 등록"></a>아웃룩 일정 등록</h2><h3 id="그룹-일정-등록"><a href="#그룹-일정-등록" class="headerlink" title="그룹 일정 등록"></a>그룹 일정 등록</h3><p><img src="https://user-images.githubusercontent.com/53321666/77755778-4e919300-7071-11ea-860f-50bad5bd6d8e.jpg" alt="Inked__LI1"></p>
+                    <p>아웃룩에서 메일을 발송하였는데 다른 사람에게 보냈거나 파일 첨부등의 실수를 하였을 때 발송 메일을 취소하거나 수정한 내용을 바꿔서 보내는 기능입니다.</p>
+<p>다만 조건이 있는데 메일을 받는 상대방이</p>
+<ul>
+<li>MS Exchange 계정을 사용</li>
+<li>아직 메일을 확인하지 않은 경우에만 할 수 있습니다.</li>
+</ul>
 <ol>
-<li><p>좌측 하단에 있는 ‘일정’ 메뉴를 클릭합니다.</p>
+<li>보낸 편지함으로 가서 발송취소를 하려는 메일을 열고 ‘메세지’ 탭의 ‘이동’ -&gt; ‘동작’ 을 클릭합니다.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/53321666/80184036-dce33f80-8644-11ea-8138-eb192bdbab29.png" alt="outlook 01"></p>
+<hr>
+<ol start="2">
+<li>‘메세지 회수’를 클릭합니다.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/53321666/80184478-9b9f5f80-8645-11ea-8f8b-d276810b74e0.png" alt="outlook 02"></p>
+<hr>
+<ol start="3">
+<li>첫번째는 발송한 메세지를 삭제 <br><br>두번째는 수정한 내용으로 재발송 <br><br>세번째는 체크를 한 상태로 삭제 및 재발송을 하였을 때, 성공여부를 알려주는 옵션입니다.</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/53321666/80184480-9cd08c80-8645-11ea-8029-839ef60a02eb.png" alt="outlook 03"></p>
+<ol start="4">
+<li><p>원하는 작업을 선택하고 ‘확인’을 누르면 삭제의 경우 바로 삭제를 실행하게되고 <br><br>새 메세지로 바꿈을 선택한 경우 보낸 메일을 수정할 수 있게 메일 창이 나타납니다.</p>
 </li>
-<li><p>일정 그룹에서 ‘회사명’을 체크합니다.<br>(이 곳에서 일정을 등록해야 회사 전체 인원이 볼 수 있습니다.)</p>
-<p> <img src="https://user-images.githubusercontent.com/53321666/77755769-4afe0c00-7071-11ea-8d51-1d8110dd64ba.png" alt="__2"></p>
-</li>
-<li><p>‘새 약속’ 또는 ‘새 모임’을 클릭하면 팝업창이 활성화되고 여기에 관련 내용을 입력하고<br>‘저장 후 닫기’ 버튼을 누르게 되면 등록이 됩니다.</p>
-</li>
-<li><p>‘새 약속’은 개인의 일정을 등록할 때,<br>‘새 모임’은 다른 사람과의 모임 (회의, 행사 등)을 등록할 때 사용합니다.</p>
+<li><p>다시 얘기드리지만 </p>
 </li>
 </ol>
-<h3 id="공유-일정-확인"><a href="#공유-일정-확인" class="headerlink" title="공유 일정 확인"></a>공유 일정 확인</h3><p>‘새 모임’을 사용하여 회의를 잡으려고 할 때 상대방의 일정을 미리 확인하는 방법입니다.</p>
-<p><img src="https://user-images.githubusercontent.com/53321666/77755775-4d606600-7071-11ea-9d4d-03719ced0952.jpg" alt="Inked__3_LI"></p>
-<p>‘공유 일정’ 위에 마우스 우클릭을 하면 메뉴창이 나타납니다.</p>
-<p><img src="https://user-images.githubusercontent.com/53321666/77755772-4c2f3900-7071-11ea-80af-420c9cb12e42.png" alt="__4"></p>
-<p>‘주소록에서’를 선택합니다.</p>
-<p><img src="https://user-images.githubusercontent.com/53321666/77755776-4df8fc80-7071-11ea-911f-47095bd8a07e.jpg" alt="Inked__5_LI"></p>
-<p>일정공유를 원하는 상대를 선택하고 ‘확인’을 누릅니다.</p>
-<p><img src="https://user-images.githubusercontent.com/53321666/77755774-4cc7cf80-7071-11ea-9072-bcddab52c5ed.png" alt="__6"></p>
-<p>선택한 상대의 일정을 확인할 수 있습니다.</p>
+<ul>
+<li>메일을 받는 상대방이 MS Exchange 계정을 사용하고</li>
+<li>아직 메일을 확인하지 않은 경우에만 할 수 있습니다.</li>
+</ul>
 
                     
                     <!-- Tags Bottom -->
                     
                         <div class="tags-container-bottom">
-                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/Outlook/">#Outlook</a>
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/Outlook/">#Outlook</a> <a class="fw3 ph1 dib" href="/tags/발송-취소/">#발송 취소</a>
                         </div>
                     
 
@@ -217,7 +223,11 @@
     <h3>Categories</h3>
     
         <p>
-            <a href="/categories/office365/">office365</a>
+            <a href="/categories/Microsoft-365/">Microsoft 365</a>
+        </p>
+    
+        <p>
+            <a href="/categories/Microsoft-365/Outlook/">Outlook</a>
         </p>
     
 </div>
