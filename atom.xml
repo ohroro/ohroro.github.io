@@ -140,7 +140,7 @@
     <link href="http://ohroro.github.io/2020/03/27/Outlook-%EC%9D%BC%EC%A0%95%EB%93%B1%EB%A1%9D/"/>
     <id>http://ohroro.github.io/2020/03/27/Outlook-%EC%9D%BC%EC%A0%95%EB%93%B1%EB%A1%9D/</id>
     <published>2020-03-27T12:11:03.000Z</published>
-    <updated>2020-04-02T01:57:41.288Z</updated>
+    <updated>2020-04-24T11:00:33.616Z</updated>
     
     <content type="html"><![CDATA[<h2 id="아웃룩-일정-등록"><a href="#아웃룩-일정-등록" class="headerlink" title="아웃룩 일정 등록"></a>아웃룩 일정 등록</h2><h3 id="그룹-일정-등록"><a href="#그룹-일정-등록" class="headerlink" title="그룹 일정 등록"></a>그룹 일정 등록</h3><p><img src="https://user-images.githubusercontent.com/53321666/77755778-4e919300-7071-11ea-860f-50bad5bd6d8e.jpg" alt="Inked__LI1"></p><ol><li><p>좌측 하단에 있는 ‘일정’ 메뉴를 클릭합니다.</p></li><li><p>일정 그룹에서 ‘회사명’을 체크합니다.<br>(이 곳에서 일정을 등록해야 회사 전체 인원이 볼 수 있습니다.)</p><p> <img src="https://user-images.githubusercontent.com/53321666/77755769-4afe0c00-7071-11ea-8d51-1d8110dd64ba.png" alt="__2"></p></li><li><p>‘새 약속’ 또는 ‘새 모임’을 클릭하면 팝업창이 활성화되고 여기에 관련 내용을 입력하고<br>‘저장 후 닫기’ 버튼을 누르게 되면 등록이 됩니다.</p></li><li><p>‘새 약속’은 개인의 일정을 등록할 때,<br>‘새 모임’은 다른 사람과의 모임 (회의, 행사 등)을 등록할 때 사용합니다.</p></li></ol><h3 id="공유-일정-확인"><a href="#공유-일정-확인" class="headerlink" title="공유 일정 확인"></a>공유 일정 확인</h3><p>‘새 모임’을 사용하여 회의를 잡으려고 할 때 상대방의 일정을 미리 확인하는 방법입니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77755775-4d606600-7071-11ea-9d4d-03719ced0952.jpg" alt="Inked__3_LI"></p><p>‘공유 일정’ 위에 마우스 우클릭을 하면 메뉴창이 나타납니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77755772-4c2f3900-7071-11ea-80af-420c9cb12e42.png" alt="__4"></p><p>‘주소록에서’를 선택합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77755776-4df8fc80-7071-11ea-911f-47095bd8a07e.jpg" alt="Inked__5_LI"></p><p>일정공유를 원하는 상대를 선택하고 ‘확인’을 누릅니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77755774-4cc7cf80-7071-11ea-9072-bcddab52c5ed.png" alt="__6"></p><p>선택한 상대의 일정을 확인할 수 있습니다.</p>]]></content>
     
@@ -154,7 +154,7 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
     
       <category term="Outlook" scheme="http://ohroro.github.io/tags/Outlook/"/>
@@ -166,7 +166,7 @@
     <link href="http://ohroro.github.io/2020/03/20/Teams-%EA%B8%B0%EB%B3%B8%EB%A9%94%EB%89%B4/"/>
     <id>http://ohroro.github.io/2020/03/20/Teams-%EA%B8%B0%EB%B3%B8%EB%A9%94%EB%89%B4/</id>
     <published>2020-03-20T05:23:09.000Z</published>
-    <updated>2020-04-02T01:57:58.591Z</updated>
+    <updated>2020-04-24T11:00:34.559Z</updated>
     
     <content type="html"><![CDATA[<h2 id="메뉴-설명"><a href="#메뉴-설명" class="headerlink" title="메뉴 설명"></a>메뉴 설명</h2><p><img src="https://user-images.githubusercontent.com/53321666/77139003-96d01480-6ab7-11ea-8381-3c7084cced7d.jpg" alt="Teams_1_LI"></p><h3 id="채팅"><a href="#채팅" class="headerlink" title="| 채팅"></a>| 채팅</h3><p>간단하게 ‘카카오톡’이라 생각하면 됩니다.<br>기록에 남기지 않아도 되는 간단한 대화는 이곳을 이용합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77139005-99326e80-6ab7-11ea-9abd-b57b3c075b8d.png" alt="Teams_2"></p><p>대화 및 파일도 주고 받을 수 있습니다.<br>주고 받은 파일은 Onedrive의 ‘Microsoft Team 채팅파일’ 폴더에 저장됩니다.</p><h3 id="팀"><a href="#팀" class="headerlink" title="| 팀"></a>| 팀</h3><p><img src="https://user-images.githubusercontent.com/53321666/77139006-99326e80-6ab7-11ea-9fa8-3b798ef45837.png" alt="Teams_3"></p><p>팀의 업무가 이루어지는 공간으로 크게 게시물, 파일, Wiki 세 분류로 사용합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77139008-9a639b80-6ab7-11ea-94dd-0a17298795f2.png" alt="Teams_4"></p><ul><li>게시물</li></ul><blockquote><p>이메일을 대신해서 팀내 업무에 관련된 내용을 상의하는 공간하거나 관련 뉴스등을 공유하는데 사용합니다.</p></blockquote><blockquote><p>하나의 주제를 올려놓고 회신을 달면서 상의를 합니다.<br>몇일 지난 주제에 대해서도 회신을 달면 최신 게시물로 올라옵니다.<br>글을 올릴때는 상대방에게 알림이 가도록 ‘@원하는 상대 이름’을 등록 후 작성합니다.</p></blockquote><ul><li>파일</li></ul><blockquote><p>팀 내에서 사용하는 파일이 모여있는 저장공간 입니다.(Sharepoint와 연동)<br>팀 공통의 저장공간이라 생각하면 됩니다.<br>게시물에서 주고 받은 파일도 이곳으로 모이게 됩니다. (이 경우 폴더별로 정리가 되지않아<br>나중에가면 사용에 불편함이 생깁니다. 파일을 폴더에 먼저 올리고 게시물 작성 때 링크로 첨부하는걸 추천합니다.) </p></blockquote><ul><li>Wiki</li></ul><blockquote><p>팀내에서 업무내용을 정리해 놓는 공간으로 사용합니다.<br>업무 상황, 미팅 노트, 회의록 등을 정리해 놓습니다.</p></blockquote>]]></content>
     
@@ -180,7 +180,7 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
     
       <category term="Teams" scheme="http://ohroro.github.io/tags/Teams/"/>
@@ -192,7 +192,7 @@
     <link href="http://ohroro.github.io/2020/03/20/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-2/"/>
     <id>http://ohroro.github.io/2020/03/20/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-2/</id>
     <published>2020-03-20T00:41:50.000Z</published>
-    <updated>2020-04-02T01:58:55.118Z</updated>
+    <updated>2020-04-24T11:00:53.284Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Teams-화상회의-메뉴-회의록-만들기-회의-녹음"><a href="#Teams-화상회의-메뉴-회의록-만들기-회의-녹음" class="headerlink" title="Teams 화상회의 메뉴, 회의록 만들기, 회의 녹음"></a>Teams 화상회의 메뉴, 회의록 만들기, 회의 녹음</h2><h3 id="회의-화면-메뉴"><a href="#회의-화면-메뉴" class="headerlink" title="회의 화면 메뉴"></a>회의 화면 메뉴</h3><p>‘참가’를 클릭하여 회의에 참석합니다.<br><img src="https://user-images.githubusercontent.com/53321666/76700464-1dbd6f80-66fb-11ea-85d2-52fdfa966121.png" alt="teams_06"></p><p>오른쪽 화면에서 회의에 참여한 인원을 확인할 수 있습니다.</p><hr><p><img src="https://user-images.githubusercontent.com/53321666/77127540-527d4e00-6a90-11ea-9777-01e507bcf350.png" alt="teams_07"></p><p>회의방에서 채팅이 필요할 때 위 아이콘을 클릭하면 채팅 창이 활성화됩니다.</p><hr><h4 id="회의록-만들기"><a href="#회의록-만들기" class="headerlink" title="회의록 만들기"></a>회의록 만들기</h4><p><img src="https://user-images.githubusercontent.com/53321666/77127568-66c14b00-6a90-11ea-8891-525bd549d04c.png" alt="teams_08"></p><p>‘…’ 메뉴 창입니다.<br>‘모임 메모 표시’ 를 선택하면 </p><p><img src="https://user-images.githubusercontent.com/53321666/77127592-7a6cb180-6a90-11ea-8f99-7a30a0d785a7.png" alt="teams_10"></p><p>메모 창이 생성됩니다.<br>회의록을 만들 때 간편하게 사용 할 수 있습니다.</p><p>‘…’메뉴의 ‘녹음 시작’을 사용하면 회의 내용을 녹음 할 수 있는데 이 기능은 아쉽게도 현재 국내에서는 지원되지 않는 기능입니다. Microsift에 문의해보니 2020년 3월에 적용 예정이긴한데 언제인지는 정확하게 알수 없다고 하네요.<br>Teams 데이터서버를 국내가 아닌 미국, 일본등에 설치한 경우에는 사용할 수 있다고 합니다.</p><hr><h4 id="회의-중-자료-공유하기"><a href="#회의-중-자료-공유하기" class="headerlink" title="회의 중 자료 공유하기"></a>회의 중 자료 공유하기</h4><p>회의 중 문서를 보여주며 설명이 필요할 경우가 있습니다.<br>메뉴 중 공유 아이콘을 클릭하면 내가 갖고 있는 자료들이 하단에 나타납니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/77127608-8a849100-6a90-11ea-985a-3685a9a22265.png" alt="teams_09"></p><p>필요한 자료를 선택하면</p><p><img src="https://user-images.githubusercontent.com/53321666/77128138-63c75a00-6a92-11ea-9161-448ec6aef417.png" alt="teams_11"></p><p>화상 회의 화면에서 문서가 열리고 상대방에게도 보여지게 됩니다.<br>문서를 보여주며 설명이 필요할 때 사용하면 됩니다.</p><hr><h4 id="회의-내용-보관"><a href="#회의-내용-보관" class="headerlink" title="회의 내용 보관"></a>회의 내용 보관</h4><p><img src="https://user-images.githubusercontent.com/53321666/77128165-76da2a00-6a92-11ea-9ac2-f1de63d65624.png" alt="teams_12"></p><p>화상회의 내용은 ‘Teams’ 채팅 창에 보관됩니다.<br>회의를 하며 주고 받은 ‘채팅’, ‘파일’, ‘회의록’이 보관됩니다.</p>]]></content>
     
@@ -206,7 +206,7 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
     
       <category term="Teams" scheme="http://ohroro.github.io/tags/Teams/"/>
@@ -220,7 +220,7 @@
     <link href="http://ohroro.github.io/2020/03/15/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-1/"/>
     <id>http://ohroro.github.io/2020/03/15/Teams-%ED%99%94%EC%83%81%ED%9A%8C%EC%9D%98-1/</id>
     <published>2020-03-15T10:53:45.000Z</published>
-    <updated>2020-04-02T01:58:16.684Z</updated>
+    <updated>2020-04-24T11:00:41.947Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Teams로-화상회의-모임-만들기"><a href="#Teams로-화상회의-모임-만들기" class="headerlink" title="Teams로 화상회의 모임 만들기"></a>Teams로 화상회의 모임 만들기</h2><p>얼굴을 보며 회의를 하고 싶은데 여러 상황상 만날 수 없을 경우 화상 회의를 해봅시다.</p><hr><h3 id="1-모임-만들기"><a href="#1-모임-만들기" class="headerlink" title="1. 모임 만들기"></a>1. 모임 만들기</h3><p><img src="https://user-images.githubusercontent.com/53321666/76700385-2d888400-66fa-11ea-8f27-27ac480d4121.png" alt="teams_01"></p><ul><li>왼쪽 메뉴에서 ‘일정’을 클릭합니다.</li><li>‘모임시작’은 바로 회의를 시작할 때 사용합니다.<br>‘+새 모임’은 회의 시간을 예약할 때 사용합니다.</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700452-fbc3ed00-66fa-11ea-9d95-f0bcb45fbaab.png" alt="new_01"></p><ul><li>회의에 사용할 제목, 시간, 내용 등을 입력합니다.<br>(시간은 클릭하여 1분 단위로도 수정됩니다.)</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700455-0aaa9f80-66fb-11ea-9f4e-65bcf751c9bf.png" alt="new_04"></p><ul><li><p>초대 할 때 주의사항</p><ol><li><p>‘필수 참석자 추가’란에 초대할 상대방의 이메일 주소를 입력합니다.</p></li><li><p>이메일 입력 후 하단의 이미지처럼 ‘abcd@gmail.com 초대’라는 팝업이 생겼을 때, 팝업을 클릭 또는 Enter키를 입력합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/76700456-126a4400-66fb-11ea-8b52-2ac2fdc7242b.png" alt="new_02"></p></li><li><p>하단의 이미지 처럼 변경되었는지 확인합니다.</p><p><img src="https://user-images.githubusercontent.com/53321666/76700460-18f8bb80-66fb-11ea-8116-6f2c5cb9e63f.png" alt="new_03"></p></li></ol></li><li><p>초대할 사람의 입력을 끝내면 ‘보내기’를 누릅니다.</p></li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700461-1a29e880-66fb-11ea-9f8d-b5b2e6c601a2.png" alt="new_05"></p><hr><hr><h3 id="2-모임-참여하기"><a href="#2-모임-참여하기" class="headerlink" title="2. 모임 참여하기"></a>2. 모임 참여하기</h3><p><img src="https://user-images.githubusercontent.com/53321666/76700463-1d24d900-66fb-11ea-9451-bd0ad874c116.png" alt="teams_04"></p><ul><li>다른 업무를 하다가 회의 시간이 되어 내가 만든 회의방으로 접속을 할 때는<br>팀즈 일정 탭에서 만든 모임을 클릭합니다.</li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700464-1dbd6f80-66fb-11ea-85d2-52fdfa966121.png" alt="teams_05"></p><ul><li><p>위의 2군데 중 하나를 클릭하면 회의방으로 참가하게 됩니다.</p><p>  ○팀즈 모임을 예약하면 내 아웃룩 일정에도 자동으로 등록이 됩니다.<br>  아웃룩 일정에 등록 된 모임을 통해서도 참가할 수 있습니다.</p></li><li><p>초대한 상대방이 화상회의에 참여하려면?</p></li></ul><p><img src="https://user-images.githubusercontent.com/53321666/76700462-1d24d900-66fb-11ea-910c-096f71db85d4.png" alt="teams_03"></p><p>내가 초대한 상대방의 이메일 수신 화면입니다.<br>상대방이 ‘Microsoft Teams 모임 참가’ 를 클릭하면 내가 만든 회의방으로 들어오게 됩니다.</p>]]></content>
     
@@ -234,7 +234,7 @@
     </summary>
     
     
-      <category term="office365" scheme="http://ohroro.github.io/categories/office365/"/>
+      <category term="Microsoft 365" scheme="http://ohroro.github.io/categories/Microsoft-365/"/>
     
     
       <category term="Teams" scheme="http://ohroro.github.io/tags/Teams/"/>
