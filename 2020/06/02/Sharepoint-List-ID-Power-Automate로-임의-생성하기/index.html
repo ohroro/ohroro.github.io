@@ -10,7 +10,12 @@
 
     <!--Description-->
     
-        <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in ">
+        <meta name="description" content="SharePoint List 생성
+쉐어포인트에 리스트를 생성하고 내용 입력할 때 마다 쉐어포인트 자체적으로 ‘ID’를 생성합니다.
+그러나 자동 생성 ID값은 숫자로만 이루어져 있어서 문자가 포함 된 ID를 만들어 보겠습니다.
+
+
+간단하게 리스트 필드를 ‘Title’, ">
     
 
     <!--Author-->
@@ -20,7 +25,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hello World"/>
+        <meta property="og:title" content="Sharepoint List ID, Power Automate로  임의 생성하기"/>
     
 
     <!--Open Graph Description-->
@@ -42,7 +47,7 @@
 
     <!-- Title -->
     
-    <title>Hello World - ohroro blog</title>
+    <title>Sharepoint List ID, Power Automate로  임의 생성하기 - ohroro blog</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
@@ -119,8 +124,8 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">Hello World</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-03-13</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">Sharepoint List ID, Power Automate로  임의 생성하기</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2020-06-02</p>
         </div>
     </div>
 
@@ -140,19 +145,58 @@
                     
 
                     <!-- Main Post Content -->
-                    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+                    <h2 id="SharePoint-List-생성"><a href="#SharePoint-List-생성" class="headerlink" title="SharePoint List 생성"></a>SharePoint List 생성</h2><p><img src="https://user-images.githubusercontent.com/53321666/83518827-ebf7c000-a515-11ea-9ec3-83e9d182f4f5.png" alt="Sahrepoint ID 01"></p>
+<p>쉐어포인트에 리스트를 생성하고 내용 입력할 때 마다 쉐어포인트 자체적으로 ‘ID’를 생성합니다.</p>
+<p>그러나 자동 생성 ID값은 숫자로만 이루어져 있어서 문자가 포함 된 ID를 만들어 보겠습니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518154-12692b80-a515-11ea-8fee-bb916d867b6e.png" alt="Sahrepoint ID 02"></p>
+<p>간단하게 리스트 필드를 ‘Title’, ‘User ID’, ‘User Name’으로만 설정하였습니다.<br>자동화 흐름을 만들기 위해 Power Automate -&gt; 흐름 만들기를 선택합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518156-1301c200-a515-11ea-8ae5-0a948b5b3ace.png" alt="Sahrepoint ID 03"></p>
+<p>흐름 만들기를 선택하면 오른쪽에 Power Automate 템플릿이 나옵니다.<br>원하는 내용이 없으므로 하단 ‘흐름 보기’를 선택하여 Power Automate 사이트로 갑니다.  </p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518157-1301c200-a515-11ea-98a0-e4a5ab948176.png" alt="Sahrepoint ID 04"></p>
+<p>My flows 에서 </p>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518160-139a5880-a515-11ea-9bf3-eb5144aaef73.png" alt="Sahrepoint ID 05"></p>
+<p>상단 ‘’New’ -&gt; ‘Autopmate-from blank’를 선택합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518162-1432ef00-a515-11ea-82b2-7010e00cd3b0.png" alt="Sahrepoint ID 06"></p>
+<p>‘Flow name’에 이름을 넣어주고 flow가 자동으로 실행되는 ‘trigger’로 ‘SharePoint에 새로운 아이템이 생성 될 때’를 선택합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518164-1432ef00-a515-11ea-8e01-8657cb00bf8e.png" alt="Sahrepoint ID 07"></p>
+<p>쉐어포인트 사이트 설정<br>리스트 이름을 설정합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83518173-172ddf80-a515-11ea-8396-cf8424664e82.png" alt="Sahrepoint ID 08"></p>
+<p>다음 단계로 업데이트 아이템을 설정합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83521191-d7b5c200-a519-11ea-9090-50527906d272.png" alt="Sahrepoint ID 09"></p>
+<p>사이트 주소와 리스트 이름을 트리거와 동일하게 설정해줍니다.<br>‘id’ 쉐어포인트의 기본 값으로 주어지는 id입니다. 1 부터 순차적으로 증가합니다.<br>Dynamic content 의 id를 넣어줍니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83521192-d8e6ef00-a519-11ea-86b5-18398e13ea0a.png" alt="Sahrepoint ID 10"></p>
+<p>쉐어포인트 입력 시 사용한 ‘Title’ 값을 그대로 넣을 것이므로 Dynamic content 의 ‘Title’을 넣어줍니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83523518-49433f80-a51d-11ea-8819-6ed42a639ddd.png" alt="Sahrepoint ID 20"></p>
+<p>자동화를 사용하여 원하는데로 생성 할 ‘User ID’란 입니다.<br>Id에 ‘User Name’을 포함한 ‘ID’를 생성할 것 입니다.<br>‘Dynamic content’의 ‘User Name’ 선택 후 ‘Expression’에서 위와 같이 함수를 입력합니다.<br>‘1000’으로 설정 시 쉐어포인트에서 기본으로 생성하는 id값에 1000을 더한다고 생각하시면 됩니다.<br>기본 id값이 2 이면 1002 가 됩니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524125-1cdbf300-a51e-11ea-8bb5-81edcd6e0a0e.png" alt="Sahrepoint ID 15"></p>
+<p>Automate를 시작해 봅니다.<br>우측 상단의 ‘Test’를 클릭합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524128-1d748980-a51e-11ea-896d-40efa21ea8b5.png" alt="Sahrepoint ID 16"></p>
+<p>직접 트리거를 작동합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524131-1d748980-a51e-11ea-9b53-148faa008f2c.png" alt="Sahrepoint ID 17"></p>
+<p>Automate가 작동하기 위해 대기중입니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524405-86f49800-a51e-11ea-8a70-12071cbdb6fc.png" alt="Sahrepoint ID 13"></p>
+<p>SharePoint로 돌아가서 아이템 생성을 위해’New’를 선택합니다.   </p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524410-878d2e80-a51e-11ea-9720-a304c81c503d.png" alt="Sahrepoint ID 14"></p>
+<p>우측에 입력창이 나타납니다.<br>내용을 입력하고 ‘Save’를 합니다.</p>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/53321666/83524831-1e59eb00-a51f-11ea-9d50-99b37584dc2b.png" alt="Sahrepoint ID 19"></p>
+<p>Power Automate로 돌아가면 flow 성공 메세지가 나타납니다.</p>
+<p><img src="https://user-images.githubusercontent.com/53321666/83525714-53b30880-a520-11ea-8903-a0c7be82f555.png" alt="Sahrepoint ID 22"></p>
+<p>쉐어포인트로 다시 가보면 ‘User ID’란에 이렇게 등록이 됩니다.</p>
 
                     
                     <!-- Tags Bottom -->
@@ -194,6 +238,10 @@
     <h3>Recent Posts</h3>
     
         <p>
+            <a href="/2020/06/02/Sharepoint-List-ID-Power-Automate%EB%A1%9C-%EC%9E%84%EC%9D%98-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0/">Sharepoint List ID, Power Automate로  임의 생성하기</a>
+        </p>
+    
+        <p>
             <a href="/2020/05/25/Teams-%EA%B2%8C%EC%8A%A4%ED%8A%B8-%EC%B4%88%EB%8C%80/">Teams 게스트 초대</a>
         </p>
     
@@ -207,10 +255,6 @@
     
         <p>
             <a href="/2020/04/21/Qoocam-8K-%EA%B0%9C%EB%B4%89/">Qoocam 8K 개봉</a>
-        </p>
-    
-        <p>
-            <a href="/2020/03/31/%EC%98%81%EC%83%81-%EC%B4%88%EA%B0%84%EB%8B%A8-%EC%9E%90%EB%A5%B4%EA%B8%B0/">영상 초간단 자르기</a>
         </p>
     
 </div>
