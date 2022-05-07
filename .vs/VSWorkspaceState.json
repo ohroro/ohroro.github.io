@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\source\\categories",
+    "\\source\\tags",
+    "\\source\\_drafts",
+    "\\source\\_posts"
   ],
+  "SelectedNode": "\\source",
   "PreviewInSolutionExplorer": false
 }
