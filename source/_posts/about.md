@@ -22,7 +22,6 @@ tags:
 ![싸가지 프레셔스](https://user-images.githubusercontent.com/53321666/164450038-a8f4503e-dfcc-4cd7-84b8-f4e1feead1d1.png)
 [Wind Send - 등 뒤의 꽃다발](https://youtu.be/SaSb7V-tCKM)
 
-수정 테스트 메세지
 
 재혁 = Wind Send = ohroro
 
